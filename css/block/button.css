@@ -1,0 +1,33 @@
+.button{
+        display: inline-block;
+        
+        padding: 18px clamp(0.938rem, 0.597rem + 1.7vw, 1.875rem) 15px;
+
+        border-radius: 7px;
+        background: var(--accent);
+        
+
+        font-family: var(--font-base);
+        font-weight: 700;
+        font-size: 19px;
+        
+
+        line-height: 1;
+        letter-spacing: 0.26em;
+
+        color: #000;
+        
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+@media (max-width: 800px){
+    .button{
+        letter-spacing: 0.16em;
+    }
+}
+
+
+
